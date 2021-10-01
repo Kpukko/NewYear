@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('image/newYear.jpg');
+    background-image: url('https://raw.githubusercontent.com/Kpukko/NewYear/main/image/newYear.jpg');
     background-size: cover;
     background-position: center center;
     display: flex;
