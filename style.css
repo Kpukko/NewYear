@@ -1,0 +1,81 @@
+*{
+    color: azure;
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('image/newYear.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1{
+    padding-top: 2rem;
+    font-size: 4rem;
+}
+
+.cooldown-c{
+    display: flex;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 0 1.5rem;
+}
+
+.cld_el{
+    text-align: center;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+.btn_date{
+    background-color: unset;
+    border: 0px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.popup{
+    position: absolute;
+    top: 65%;
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0px solid #fff;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    background-color: unset;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.now_time{
+    display: flex;
+}
+
+.time_el{
+    margin: 0.3rem;
+    font-size: 1.5rem;
+}
+
+
